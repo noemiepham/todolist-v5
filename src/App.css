@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cherry+Bomb+One&display=swap');
+
 *,
 *:before,
 *:after {
@@ -26,8 +28,10 @@ body {
 
 h1 {
 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #939697;
+  font-family: 'Acme', sans-serif;
+  color: #066acd;
+  font-size: 30px;
+  margin-top: 30px;
 }
 
 #newtask {
@@ -79,8 +83,11 @@ input {
   width: 100%;
   position: relative;
   background-color: #ffffff;
-  padding: 30px 20px;
+  padding: 10px 20px;
   margin-top: 10px;
+
+  display: flex;
+  justify-content: space-around;
 }
 
 .task {
@@ -124,5 +131,5 @@ input {
 
 .search {
   margin: 50px 50px;
-
+  width: 50%;
 }
